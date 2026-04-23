@@ -422,8 +422,10 @@ p { margin: 0 0 1rem; color: var(--ink-soft); }
   display: grid !important;
   grid-template-columns: repeat(4, 1fr) !important;
   gap: 1rem !important;
-  margin-top: 3rem !important;
+  margin-top: 5.5rem !important;
   position: relative;
+  z-index: 2;
+  clear: both;
 }
 .hero__stats .stat {
   position: relative;
