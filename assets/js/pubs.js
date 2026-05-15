@@ -205,12 +205,12 @@ window.COLLECTIONS = {
     lead: "We develop state-of-the-art methods for real-world visual restoration — super-resolution, denoising, deblurring, dehazing, HDR, flicker removal — and rigorous quality assessment metrics, with active industry-connected research through OPPO Research Institute.",
     tags: ["Real-world SR", "Denoising", "Deblurring", "HDR", "Restoration for Downstream", "IQA / VQA"],
     topics: [
-      { title:"Real-World Super-Resolution", desc:"Generative and regression-based SR that works under complex, unknown degradations." },
-      { title:"Diffusion & AR SR",           desc:"Accelerating diffusion / autoregressive generators for practical SR." },
-      { title:"RL for Restoration",          desc:"Preference optimization and reward learning for perceptual restoration." },
-      { title:"Video Flicker Removal",       desc:"Removing temporal artifacts from burst captures and consumer videos." },
-      { title:"Restoration-for-Perception",  desc:"Restoration as adaptation for downstream segmentation, detection and VQA." },
-      { title:"Quality Assessment",          desc:"Robust perceptual metrics aligned with human preferences." }
+      { title:"Image Restoration",           desc:"Restoring clean and faithful images from complex real-world degradations." },
+      { title:"Video Restoration",           desc:"Improving temporal consistency, detail and visual quality in degraded videos." },
+      { title:"Visual Enhancement",          desc:"Enhancing perceptual quality, visibility and usability for real imaging scenarios." },
+      { title:"Generative Restoration",      desc:"Using generative priors to recover realistic details for challenging restoration tasks." },
+      { title:"Restoration for Perception",  desc:"Studying how restoration supports downstream understanding and decision tasks." },
+      { title:"Image / Video Quality",       desc:"Building assessment methods aligned with human perception and real-world needs." }
     ]
   },
   multimodal: {
@@ -219,12 +219,12 @@ window.COLLECTIONS = {
     lead: "We advance Multimodal Large Language Models (MLLMs) for perception, grounding and reasoning — enabling models that truly understand images and videos, ground concepts temporally and spatially, and reason across modalities.",
     tags: ["MLLM", "VLM", "Grounding", "Video Understanding", "OOD Detection", "Reasoning"],
     topics: [
-      { title:"Video Temporal Grounding",    desc:"Instructed temporal grounding to align language with video moments." },
-      { title:"MLLM for OOD Detection",      desc:"Using MLLMs to shape adaptive negative textual spaces." },
-      { title:"Multi-Task MLLMs",            desc:"Unified models that tackle many perception tasks." },
-      { title:"Vision-Language Alignment",   desc:"Better alignment between visual tokens and language space." },
-      { title:"Compositional Reasoning",     desc:"Reasoning across regions, objects and temporal segments." },
-      { title:"Mobile MLLMs",                desc:"Efficient MLLMs suited for on-device deployment." }
+      { title:"Video Understanding",         desc:"Understanding events, temporal structure and semantics in visual content." },
+      { title:"Visual Perception",           desc:"Connecting low-level visual signals with high-level concepts and tasks." },
+      { title:"Multimodal Reasoning",        desc:"Reasoning over images, videos and language for richer visual intelligence." },
+      { title:"Vision-Language Models",      desc:"Improving alignment and interaction between visual representations and language." },
+      { title:"Unified Multimodal Models",   desc:"Developing models that can support multiple perception and understanding tasks." },
+      { title:"Efficient / Mobile MLLMs",    desc:"Exploring compact multimodal models for practical deployment scenarios." }
     ]
   },
   synthesis: {
@@ -233,12 +233,12 @@ window.COLLECTIONS = {
     lead: "We develop, accelerate and distill next-generation diffusion, DiT and autoregressive generators for image and video synthesis and editing. We work on sampling acceleration, one-step distillation, controllable editing and unified training.",
     tags: ["Diffusion", "DiT", "Autoregressive", "One-Step Distillation", "Image Editing", "Video Generation"],
     topics: [
-      { title:"Diffusion Distillation",      desc:"Diversity-preserving distillation for fast visual synthesis." },
-      { title:"DiT Acceleration",            desc:"Studying whether external features are indispensable for DiT training." },
-      { title:"Content-Consistent Editing",  desc:"Instruction-following image editing without altering background." },
-      { title:"Unified Video / Image Gen.",  desc:"Single models that tackle many generation & manipulation tasks." },
-      { title:"Controllable Generation",     desc:"Region-regularized and structure-aligned conditional generation." },
-      { title:"Generative Super-Resolution", desc:"Generative SR using diffusion and autoregressive priors." }
+      { title:"Image Generation",            desc:"Generating high-quality visual content with controllable and scalable models." },
+      { title:"Video Generation",            desc:"Modeling motion, temporal consistency and scene dynamics for video synthesis." },
+      { title:"Image / Video Editing",       desc:"Editing visual content according to user intent while preserving key details." },
+      { title:"Controllable Generation",     desc:"Guiding generation with structure, regions, text and other conditions." },
+      { title:"Fast Visual Synthesis",       desc:"Accelerating diffusion, DiT and autoregressive generation for practical use." },
+      { title:"Unified Generative Models",   desc:"Training models that can cover multiple generation and manipulation tasks." }
     ]
   },
   "3d": {
@@ -247,12 +247,12 @@ window.COLLECTIONS = {
     lead: "We build systems that sense, reconstruct, synthesize and edit high-fidelity 3D worlds from images, videos and language — covering explorable scene generation, photorealistic asset synthesis and generalized 3D editing.",
     tags: ["Scene Generation", "3D Editing", "NeRF / Gaussian", "Single-Image-to-3D", "Photorealism"],
     topics: [
-      { title:"One-Pass 3D Editing",         desc:"Generalized, versatile 3D editing in a single forward pass." },
-      { title:"Explorable Scene Gen.",       desc:"Geometrically-consistent 3D scenes from a single image." },
-      { title:"Photorealistic 3D Gen.",      desc:"Structure-aligned detail enhancement for photorealism." },
-      { title:"Neural 3D Representations",   desc:"Implicit fields and Gaussian splatting for rich scene reconstruction." },
-      { title:"Text-to-3D",                  desc:"Prompt-driven 3D asset generation and manipulation." },
-      { title:"3D Understanding",            desc:"Semantic parsing and reasoning in reconstructed 3D worlds." }
+      { title:"3D Generation",               desc:"Synthesizing realistic 3D assets and scenes from visual or language inputs." },
+      { title:"3D Editing",                  desc:"Editing 3D content with flexible controls and consistent scene structure." },
+      { title:"3D Reconstruction",           desc:"Recovering geometry, appearance and scene layout from images or videos." },
+      { title:"Explorable Scenes",           desc:"Building navigable and geometrically consistent 3D scenes from limited inputs." },
+      { title:"Photorealistic 3D",           desc:"Improving structure, texture and detail for more realistic 3D results." },
+      { title:"3D Perception",               desc:"Understanding objects, scenes and relationships in 3D visual worlds." }
     ]
   },
   architecture: {
@@ -261,12 +261,12 @@ window.COLLECTIONS = {
     lead: "We study new architectures for vision transformers, diffusion transformers, LLMs and VLMs — and the training paradigms that make them efficient: low-bit attention, decentralized pretraining and feature-free acceleration.",
     tags: ["Transformer", "DiT", "LLM", "VLM", "Low-Bit", "Distributed Training"],
     topics: [
-      { title:"One-Bit Attention",           desc:"Binary QK-Attention without performance degradation." },
-      { title:"Decentralized LLM Training",  desc:"Memory-efficient pretraining on distributed, low-memory GPUs." },
-      { title:"Self-Transcendent DiT",       desc:"Accelerating DiTs without external pre-trained features." },
-      { title:"Efficient VLMs",              desc:"Compact VLMs with strong perception-reasoning trade-offs." },
-      { title:"Training Dynamics",           desc:"Understanding what features truly matter during training." },
-      { title:"Mobile-Friendly Models",      desc:"Architectures suited for on-device inference." }
+      { title:"Efficient Architectures",     desc:"Designing compact and capable models for vision, language and generation." },
+      { title:"Transformer Attention",       desc:"Improving attention mechanisms for efficient vision and diffusion transformers." },
+      { title:"Sequence Modeling",           desc:"Exploring alternative model families for long-range visual and multimodal modeling." },
+      { title:"Distributed Training",        desc:"Studying memory-efficient training paradigms for large-scale models." },
+      { title:"Generative Model Training",   desc:"Improving training strategies for diffusion, DiT and visual synthesis models." },
+      { title:"On-Device Efficiency",        desc:"Pushing model efficiency for practical and mobile-friendly visual intelligence." }
     ]
   },
   benchmarks: {
@@ -275,12 +275,12 @@ window.COLLECTIONS = {
     lead: "Rigorous, reproducible science needs rigorous, reproducible evaluation. VCLab contributes comprehensive benchmarks and datasets for T2I / T2V instruction following, video world-model capabilities, multi-image composition and physical plausibility.",
     tags: ["Benchmarks", "Datasets", "T2I / T2V", "World Models", "Physics", "Multi-Image"],
     topics: [
-      { title:"T2I Instruction Following",   desc:"TIIF-Bench — evaluating how faithfully T2I models follow prompts." },
-      { title:"T2V World-Model Capability",  desc:"VideoVerse — probing whether T2V generators have world-model ability." },
-      { title:"Physics of Generated Video",  desc:"PhyDetEx — detecting and explaining physical plausibility in T2V." },
-      { title:"Multi-Image Composition",     desc:"MICo-150K — a large dataset for multi-image composition research." },
-      { title:"Restoration Benchmarks",      desc:"Evaluating restoration quality in real-world settings." },
-      { title:"Perception Metrics",          desc:"Alignment of metric scores with human perception." }
+      { title:"Visual Generation Evaluation", desc:"Evaluating how well image and video generation models follow instructions." },
+      { title:"Video World Models",          desc:"Testing whether video generators capture dynamics, causality and scene behavior." },
+      { title:"Physical Plausibility",       desc:"Assessing whether generated visual content follows common physical constraints." },
+      { title:"Multi-Image Datasets",        desc:"Building data resources for composition, editing and multi-image reasoning." },
+      { title:"Restoration Benchmarks",      desc:"Evaluating image and video restoration under realistic degradation settings." },
+      { title:"Reproducible Evaluation",     desc:"Designing benchmarks and metrics that make model comparison more reliable." }
     ]
   }
 };
