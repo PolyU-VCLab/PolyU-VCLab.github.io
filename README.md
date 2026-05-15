@@ -14,7 +14,7 @@ Live site (once deployed): `https://<your-org>.github.io/vclab/`
 ```
 VCLab/
 ├── index.html                 # Main landing page
-├── collections/               # Six research-direction pages
+├── collections/               # Research collection pages
 │   ├── restoration.html
 │   ├── multimodal.html
 │   ├── synthesis.html
@@ -40,7 +40,7 @@ VCLab/
 - **Typography**: *Playfair Display* (serif headings) + *Inter* (sans body).
 - **Layout**: fixed left sidebar navigation + scrollable main content,
   inspired by Tsinghua MARS Lab's site.
-- **Six research collections**, each with a custom SVG icon.
+- **Research collections**, each with a custom SVG icon.
 
 ## Update the content
 

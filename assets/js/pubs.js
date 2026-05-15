@@ -37,7 +37,7 @@ window.PUBLICATIONS = [
     code:"https://github.com/cswry/VOSR" },
 
   { venue:"CVPR", year:"2026",
-    title:"GDPO-SR: Group Direct Preference Optimization for One-Step Generative Super-Resolution",
+    title:"GDPO-SR: Group Direct Preference Optimization for One-Step Generative Image Super-Resolution",
     authors:"Q. Yi, S. Li, R. Wu, L. Sun, Z. Zhang, L. Zhang",
     tagline:"Can we apply RL to one-step diffusion SR models?",
     category:"restoration",
@@ -98,7 +98,7 @@ window.PUBLICATIONS = [
     paper:"https://www.arxiv.org/abs/2602.14042",
     code:"https://github.com/Ka1Guan/RASS" },
 
-  { venue:"Preprint", year:"2026",
+  { venue:"Preprint", year:"2025",
     title:"NSARM: Next-Scale Autoregressive Modeling for Robust Real-World Image Super-Resolution",
     authors:"X. Kong, R. Wu, S. Liu, L. Sun, L. Zhang",
     tagline:"An efficient and robust AR model for real-world super-resolution!",
@@ -106,15 +106,15 @@ window.PUBLICATIONS = [
     paper:"https://arxiv.org/abs/2510.00820",
     code:"https://github.com/Xiangtaokong/NSARM" },
 
-  { venue:"Preprint", year:"2026",
-    title:"VideoVerse: Does Your T2V Generator Have World Model Capability?",
+  { venue:"Preprint", year:"2025",
+    title:"VideoVerse: Does Your T2V Generator Have World Model Capability to Synthesize Videos?",
     authors:"Z. Wang, X. Wei, B. Li, Z. Guo, J. Zhang, H. Wei, K. Wang, L. Zhang",
     tagline:"To evaluate how strong your T2V model is!",
     category:"benchmarks",
     paper:"https://arxiv.org/abs/2510.08398",
     code:"https://www.naptmn.cn/Homepage_of_VideoVerse/" },
 
-  { venue:"Preprint", year:"2026",
+  { venue:"Preprint", year:"2025",
     title:"TIIF-Bench: How Does Your T2I Model Follow Your Instructions?",
     authors:"X. Wei, J. Zhang, Z. Wang, H. Wei, Z. Guo, L. Zhang",
     tagline:"Accurately evaluate T2I models' real performance!",
@@ -123,7 +123,7 @@ window.PUBLICATIONS = [
     code:"https://a113n-w3i.github.io/TIIF_Bench/" },
 
   { venue:"Preprint", year:"2026",
-    title:"CoCoEdit: Content-Consistent Image Editing via Region Regularized RL",
+    title:"CoCoEdit: Content-Consistent Image Editing via Region Regularized Reinforcement Learning",
     authors:"Y. Wu, C. Xie, R. Li, L. Chen, Q. Yi, L. Zhang",
     tagline:"Edit the image as you instruct without changing background details!",
     category:"synthesis",
@@ -131,7 +131,7 @@ window.PUBLICATIONS = [
     code:"https://github.com/langmanbusi/CoCoEdit" },
 
   { venue:"Preprint", year:"2026",
-    title:"Self-Transcendence: Is External Feature Guidance Indispensable for Accelerating DiT Training?",
+    title:"Self-transcendence: Is External Feature Guidance Indispensable for Accelerating Diffusion Transformer Training?",
     authors:"L. Sun, R. Wu, Z. Zhang, R. Li, Y. Sun, S. Liu, L. Zhang",
     tagline:"Do we really need pre-trained external features to accelerate DiT training?",
     category:"architecture",
@@ -147,14 +147,14 @@ window.PUBLICATIONS = [
     code:"https://github.com/Multimedia-Analytics-Laboratory/dpdmd" },
 
   { venue:"Preprint", year:"2026",
-    title:"Pretraining LLMs using Distributed GPUs: A Memory-Efficient Decentralized Paradigm",
+    title:"Pretraining A Large Language Model using Distributed GPUs: A Memory-Efficient Decentralized Paradigm",
     authors:"J. Zhang, C. Xiao, A. Wu, X. Zhang, L. Zhang",
     tagline:"Can we train large-scale LLMs using GPUs with low memory?",
     category:"architecture",
     paper:"https://arxiv.org/abs/2602.11543",
     code:"https://github.com/zjr2000/SPES" },
 
-  { venue:"Preprint", year:"2026",
+  { venue:"Preprint", year:"2025",
     title:"PhyDetEx: Detecting and Explaining the Physical Plausibility of T2V Models",
     authors:"Z. Wang, K. Wang, L. Zhang",
     tagline:"Is the generated video physically plausible and why?",
@@ -164,27 +164,32 @@ window.PUBLICATIONS = [
 ];
 
 window.TEAM = [
-  { name:"Rongyuan Wu",      role:"PhD Student", initials:"RW" },
-  { name:"Lingchen Sun",     role:"PhD Student", initials:"LS" },
-  { name:"Zhengqiang Zhang", role:"PhD Student", initials:"ZZ" },
-  { name:"Xiangtao Kong",    role:"PhD Student", initials:"XK" },
-  { name:"Xinyu Wei",          role:"PhD Student", initials:"XW" },
-  { name:"Liyi Chen",     role:"PhD Student", initials:"LC" },
-  { name:"Pengfei Wang",        role:"PhD Student", initials:"PW" },
-  { name:"Zeqing Wang",      role:"PhD Student", initials:"ZW" },
-  { name:"Wenjie Zhu",       role:"PhD Student", initials:"WZ" },
-  { name:"Ruibin Li",        role:"PhD Student", initials:"RL" },
-  { name:"Jiarui Zhang",     role:"PhD Student", initials:"JZ" },
-  { name:"Kai Guan",         role:"PhD Student", initials:"KG" },
-  { name:"Xinyue Liang",     role:"PhD Student", initials:"XL" },
-  { name:"ZhiYuan Ma",         role:"PhD Student", initials:"ZM" }
+  { name:"Yujing Sun",       role:"Research Team", initials:"YS" },
+  { name:"Xinyue Liang",     role:"Research Team", initials:"XL" },
+  { name:"Lingchen Sun",     role:"Research Team", initials:"LS" },
+  { name:"Zhiyuan Qi",       role:"Research Team", initials:"ZQ" },
+  { name:"Shihao Wang",      role:"Research Team", initials:"SW" },
+  { name:"Zhiyuan Ma",       role:"Research Team", initials:"ZM" },
+  { name:"Ning Zhang",       role:"Research Team", initials:"NZ" },
+  { name:"Xiangtao Kong",    role:"Research Team", initials:"XK" },
+  { name:"Yanjun Guo",       role:"Research Team", initials:"YG" },
+  { name:"Rongyuan Wu",      role:"Research Team", initials:"RW" },
+  { name:"Bairui Li",        role:"Research Team", initials:"BL" },
+  { name:"Le Hui",           role:"Research Team", initials:"LH" },
+  { name:"Xiaoyi Chen",      role:"Research Team", initials:"XC" },
+  { name:"Ruibin Li",        role:"Research Team", initials:"RL" },
+  { name:"Wenjie Zhu",       role:"Research Team", initials:"WZ" },
+  { name:"Chaodong Xiao",    role:"Research Team", initials:"CX" },
+  { name:"Jie Liang",        role:"Research Team", initials:"JL" },
+  { name:"Zhen Guo",         role:"Research Team", initials:"ZG" },
+  { name:"Yuyan Li",         role:"Research Team", initials:"YL" }
 ];
 
 window.COLLECTIONS = {
   restoration: {
     num: "01",
     title: "Image / Video Restoration, Enhancement & Quality Assessment",
-    lead: "We develop state-of-the-art methods for real-world visual restoration — super-resolution, denoising, deblurring, dehazing, HDR, flicker removal — and rigorous quality assessment metrics. Our methods are widely deployed on mobile devices via our collaboration with OPPO Research Institute.",
+    lead: "We develop state-of-the-art methods for real-world visual restoration — super-resolution, denoising, deblurring, dehazing, HDR, flicker removal — and rigorous quality assessment metrics, with active industry-connected research through OPPO Research Institute.",
     tags: ["Real-world SR", "Denoising", "Deblurring", "HDR", "Restoration for Downstream", "IQA / VQA"],
     topics: [
       { title:"Real-World Super-Resolution", desc:"Generative and regression-based SR that works under complex, unknown degradations." },
